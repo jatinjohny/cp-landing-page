@@ -1,2 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
+*, ::before, ::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:1px solid magenta;
+}
+
+body {
+    background:#eee;
+    font-family: Lato, sans-serif;
+}
